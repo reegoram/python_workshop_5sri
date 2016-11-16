@@ -1,0 +1,25 @@
+from this import * #import zen of python, import sirve para llamar librerías externas a nuestro código
+
+print("Hello World") #imprime "Hello World" en la terminal
+
+3 + 5 #Devuelve el resultado de 3 + 5
+
+x = True #Asigna a x el valor de True, por lo tanto x es boolean
+
+type(x) #devuelve el tipo de variable que es x, en este caso boolean
+
+a = input("Introduzca el valor de a") #Lee del teclado y almacena en a, lo que el usuario introdujo (indistitntamente del tipo de dato)
+
+a = int(input("Introduzca el número")) #Lee del teclado y lo interpreta como un número entero
+
+While True:
+	print("System Failed")
+
+#Imprime System Failed, siempre... Se cancela con Ctrl + C
+
+fori in range(1,10):
+	if i % 2 == 0:
+		print("El numero %i es %s" %(i, "par"))
+	else:
+		print("El numero %i es %s" %(i, "impar"))
+
